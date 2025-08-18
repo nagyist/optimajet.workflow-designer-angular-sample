@@ -4,7 +4,7 @@ import el from './localization/el.json';
 // @ts-ignore
 import elElementUILocalization from './localization/el.js';
 
-el.elementUILocalization = elElementUILocalization;
+(el as any).elementUILocalization = elElementUILocalization;
 
 @Component({
   selector: 'app-root',
