@@ -20,6 +20,12 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "loader": {
+              ".woff2": "file",
+              ".woff": "file",
+              ".ttf": "file",
+              ".eot": "file"
+            },
             "preserveSymlinks": true,
             "outputPath": {
               "base": "dist/workflow-designer-angular-sample"
